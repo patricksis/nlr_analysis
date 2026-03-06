@@ -1,0 +1,46 @@
+# Data files
+*.fastq
+*.fastq.gz
+*.fq
+*.fq.gz
+*.fasta
+*.fa
+*.bam
+*.sam
+*.vcf
+*.vcf.gz
+*.bcf
+*.bed
+*.gff
+*.gff3
+*.gtf
+
+# Indices
+*.fai
+*.bai
+*.csi
+*.tbi
+*.mmi
+*.gbz
+*.dist
+*.min
+
+# SLURM logs
+*.out
+*.err
+job.o*
+job.e*
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# R
+.Rhistory
+.RData
+
+# Misc
+*.tmp
+*.log
+a.out

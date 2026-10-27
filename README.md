@@ -25,7 +25,7 @@ bash all_commands.sh \
     -s sample_name
 ```
 
-All flags are optional — defaults are shown with `bash all_commands.sh -h`.
+All flags are optional. Defaults are set at the top of `all_commands.sh`. If you pass `-f`, also pass `-s`, since the sample name otherwise defaults to `genome`.
 
 ## Pipeline Steps
 

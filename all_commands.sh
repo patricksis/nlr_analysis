@@ -42,6 +42,7 @@ echo "WORKDIR:       $WORKDIR"
 echo "SAMPLE:        $SAMPLE"
 
 mkdir -p "$WORKDIR"
+cp "$NEIGHBORHOODS" "${WORKDIR}/${SAMPLE}.neighborhoods_final_renamed.bed"
 
 # --- 1. Index genome and extract .genome file ---
 echo "[1] Indexing genome..."
